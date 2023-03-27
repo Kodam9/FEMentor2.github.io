@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 30px;
+    padding: 2rem;
+    color: #fff;
+    background: linear-gradient(to bottom, #323a4d, #181f28)
+}
+
+.container img{
+    background-color: #374452;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.container h3{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    word-spacing: .2rem;
+}
+
+.container p{
+    font-size: .9rem;
+    opacity: .7;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.numbers{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.number-btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #374452;
+    border-radius: 50%;
+    color: #9096a2;
+    font-weight: 700;
+}
+
+.number-btn:hover{
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.number-btn:focus{
+    background-color: #7f8899;
+    color: #fff;
+}
+
+.container input{
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    background-color: #ff6600;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.container input:hover{
+    background-color: #fff;
+    color: #ff6600
+}
+
+.container h6{
+    display: none;;
+    opacity: .5;
+    margin-top: 5px;
+    text-align: center;
+    color: red;
+
+}
+
+
+.popup{
+    width: 400px;
+    border-radius: 30px;
+    padding: 1.4rem;
+    color: #fff;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #323a4d, #181f28)
+}
+
+.popup h5{
+    margin: 2rem;
+    background-color: #323a4d;
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    color: #d4651b;
+}
+
+.popup h2{
+    margin-bottom:.6rem;
+}
+
+.popup p{
+    text-align: center;
+    color: #7f8899;
+    line-height: 1.4rem;
+    margin-bottom: .5rem;
+    font-weight: 400;
+}
+
+#arrow{
+    margin: 1rem;
+    align-self: flex-start;
+}
